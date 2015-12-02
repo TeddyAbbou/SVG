@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="main.css" media="screen" title="no title">
+    <meta charset="utf-8">
+    <title>SVG</title>
+
+
+  </head>
+  <body>
+<div id="ico_menu" onclick="menu()">
+  <div id="barre1"></div>
+  <div id="barre2"></div>
+  <div id="barre3"></div>
+</div>
+
+
+<div id="ico_croix" onclik="menu()">
+</div>
+<div id="menu">
+<h1>PRESENTATION</h1>
+<h3>APPARITION</h3>
+<h3>EVOLUTION</h3>
+<h3>LOGICIEL</h3>
+<h3>PRINT</h3>
+<h3>RESPONSIVE</h3>
+<h3>UTILISATION</h3>
+
+<h1>TUTORIEL</h1>
+<h3>VIDEO</h3>
+<h3>LEXIQUE</h3>
+
+<h1>RESSOURCE</h1>
+</div>
+<script type="text/javascript">
+
+function  menu(){
+  document.getElementById("menu").style.display="block";
+  document.getElementById("barre1").style.transition = "all 1s ease-in";
+  document.getElementById("barre1").style.transform = "rotate("+45+"deg)";
+  document.getElementById("barre2").style.display="none";
+  document.getElementById("barre3").style.transition = "all 1s ease-in";
+  document.getElementById("barre3").style.transform = "rotate("+135+"deg)";
+}
+
+function  ico_menu (){
+  document.getElementById("menu").style.display="none";
+  document.getElementById("barre1").style.transition = "all 1s ease-in";
+  document.getElementById("barre1").style.transform = "rotate("+225+"deg)";
+  document.getElementById("barre2").style.display="block";
+  document.getElementById("barre3").style.transition = "all 1s ease-in";
+  document.getElementById("barre3").style.transform = "rotate("+315+"deg)";
+}
+
+/*function menu(elmt)
+{
+   if(typeof elmt == "string")
+      {elmt = document.getElementById(elmt);
+      };
+   else if  {
+     (elmt.style.display == "none")
+        elmt.style.display = "";
+   };
+   else{
+      elmt.style.display = "none";
+};*/
+    </script>
+
+                                                                                        <!-- Menu -->
+  <!-- <div id="page1"></div>
+  <container>
+<h6>LOADING</h6>
+</container> -->
+
+                                                                                        <!-- Page 1 -->
+
+<container2>
+  <!-- <div id="page2"></div>
+<h5><div class ="titre"> APPARITION </div>
+  Cumque pertinacius ut legum gnarus accusatorem flagitaret atque sollemnia,
+  doctus id Caesar libertatemque superbiam ratus tamquam obtrectatorem audacem
+  excarnificari praecepit, qui ita evisceratus ut cruciatibus membra deessent,
+  inplorans caelo iustitiam, torvum renidens fundato pectore mansit inmobilis
+</h5></div> -->
+</container2>
+
+                                                                                        <!-- Page 2  -->
+
+<!-- <container3>
+ <div class="page3">
+  <div class="scroll-vertical">
+  <div class="ligne_verticale" >    <hr width="100px" size="70px" />
+</div>
+    Cumque pertinacius ut
+  </div>
+</div>
+</container3> -->
+  </body>
+</html>
